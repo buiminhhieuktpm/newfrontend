@@ -1,0 +1,32 @@
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        loop:true,
+        margin:30,
+        responsiveClass:true,
+        nav:false,
+        responsive:{
+            0:{
+                items:1,
+                nav:false
+            },
+            575.98:{
+                items:1,
+                nav:false,
+                dots:false
+            },
+            992:{
+                items:2,
+                margin:15
+            },
+            1200:{
+                items:3,
+                nav:false,
+                loop:false
+            },
+            2000:{
+                items:3
+            },
+        }
+    });
+  });
+ 
